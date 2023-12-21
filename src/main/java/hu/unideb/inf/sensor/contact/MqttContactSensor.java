@@ -40,7 +40,7 @@ public class MqttContactSensor implements ContactSensor {
     }
 
     @Override
-    public ReadOnlyBooleanProperty getIsContactWrapper() {
+    public ReadOnlyBooleanProperty getIsContactProperty() {
         return isContact.getReadOnlyProperty();
     }
 
